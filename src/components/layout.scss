@@ -3,3 +3,13 @@
 // If need, change your variables before importing Bulma
 
 @import "~bulma/bulma.sass";
+
+#gatsby-focus-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#site-content {
+  flex-grow: 1;
+}
