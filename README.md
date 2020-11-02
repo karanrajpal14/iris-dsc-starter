@@ -1,16 +1,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  Iris Gatsby Starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+A simple boilerplate for Gatsby that uses BulmaCSS for styling. Prepared for the workshop on GatsbyJS for Google's DSC UTA Chapter. You can read more about the event [here][1]
 
 ## 🚀 Quick start
 
@@ -19,8 +12,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # create a new Gatsby site using the starter
+    gatsby new iris-spa https://github.com/karanrajpal14/iris-dsc-starter
     ```
 
 1.  **Start developing.**
@@ -28,7 +21,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd iris-spa/
     gatsby develop
     ```
 
@@ -38,7 +31,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `iris-spa` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -49,10 +42,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── src
     ├── .gitignore
     ├── .prettierrc
-    ├── gatsby-browser.js
     ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
@@ -66,21 +56,15 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+5.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+6.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+7. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+8. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
+9. **`README.md`**: A text file containing useful reference information about your project.
 
 ## 🎓 Learning Gatsby
 
@@ -92,8 +76,21 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/karanrajpal14/iris-dsc-starter)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/karanrajpal14/iris-dsc-starter)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+## Additional Resources and References
+
+Gatsby Docs
+
+BulmaCSS Docs
+
+Gatsby Image Sharp Docs
+
+Gatsby Project Structure
+https://www.gatsbyjs.com/docs/gatsby-project-structure/
+
+## Credits
+
+All credits go to the GatsbyJS team for developing the initial starter which I have merely adapted to ease starting off with the workshop.
