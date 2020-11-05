@@ -3,22 +3,23 @@
   Iris Gatsby Starter
 </h1>
 
-A simple boilerplate for Gatsby that uses BulmaCSS for styling. Prepared for the workshop on GatsbyJS for Google's DSC UTA Chapter. You can read more about the event [here][1]
+A simple boilerplate for Gatsby that uses BulmaCSS for styling. Prepared for the workshop on GatsbyJS for Google's DSC UTA Chapter.
+
+You can read more about the event [here][1].
 
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the Gatsby CLI to create a new site, specifying the starter.
 
     ```shell
-    # create a new Gatsby site using the starter
     gatsby new iris-spa https://github.com/karanrajpal14/iris-dsc-starter
     ```
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and start the development server.
 
     ```shell
     cd iris-spa/
@@ -82,15 +83,16 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## Additional Resources and References
 
-Gatsby Docs
+[GatsbyJS Documentation](https://www.gatsbyjs.com/docs/)
 
-BulmaCSS Docs
+[BulmaCSS Documentation](https://bulma.io/documentation/)
 
-Gatsby Image Sharp Docs
+[Gatsby Image Documentation](https://www.gatsbyjs.com/docs/gatsby-image/)
 
-Gatsby Project Structure
-https://www.gatsbyjs.com/docs/gatsby-project-structure/
+[Gatsby Project Structure](https://www.gatsbyjs.com/docs/gatsby-project-structure/)
 
 ## Credits
 
 All credits go to the GatsbyJS team for developing the initial starter which I have merely adapted to ease starting off with the workshop.
+
+[1]: https://dsc.community.dev/events/details/developer-student-clubs-university-of-texas-at-arlington-presents-developing-a-single-page-application-using-gatsbyjs/
